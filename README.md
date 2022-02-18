@@ -118,3 +118,154 @@ A page where I made a list of my favorite watches including some vintage ones.
          </section>
 
     </body>
+body{
+    background-image: url("../images/watch gears.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color:cornsilk;
+}
+.title{
+    color:cornsilk; 
+
+
+}
+nav>a{
+    color:honeydew;
+    text-decoration: none;
+    opacity: .5px;
+    border-radius: 25px;
+    background:slateblue;
+    padding: 10px;
+
+}
+
+
+a:hover{
+    transition: background-color 1s;
+   background-color:gold;
+   font-size: 150%;
+}
+
+
+section{
+    text-align:center;
+}
+li{
+    color:honeydew;
+   list-style-position:inside;
+}
+#date{
+    color: honeydew;
+    padding: 50px;
+ }
+
+ * {box-sizing:border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.slideshow {display: none}
+img {vertical-align: middle;}
+
+
+* {box-sizing:border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.slideshow {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  padding: 50px;
+  color: cornsilk;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: center;
+  top: 100%;
+  width: auto;
+  margin-top: -22px;
+  padding: 80px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover{
+  background-color: rgba(0,0,0,0.8);
+  background: 50px
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 10px 12px;
+  position: center;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 20px 20px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
