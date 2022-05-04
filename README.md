@@ -1,3 +1,2 @@
-# Watches.io
-A page where I made a list of my favorite watches including some vintage ones.
-This page was great practice and it allowed me to play with JavaScript even more.
+Watches!
+A page where I made a list of my favorite watches including some vintage ones. This page was great practice and it allowed me to play with JavaScript even more. This project contains various watches that I enjoy and hopefully one day add to my collection. There are links with labled interactive buttons that are hyperlinks. When they are clicked on they will take you to a different webpage of a watch that I adore. There is also a photo carousel with some vintage watches that I created with JavaScript as well as the current date and time on the page so you aways know the time! Some of the challeges for me was the JavaScript portion of the time and carousel as well as making sure everything lined up in CSS.
