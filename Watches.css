@@ -24,7 +24,7 @@ nav>a{
 
 a:hover{
     transition: background-color 1s;
-   background-color:gold;
+   background-color:forestgreen;
    font-size: 150%;
 }
 
@@ -33,11 +33,11 @@ section{
     text-align:center;
 }
 li{
-    color:honeydew;
+    color:white;
    list-style-position:inside;
 }
 #date{
-    color: honeydew;
+    color: pink;
     padding: 50px;
  }
 
